@@ -94,7 +94,7 @@ def add_magnet(aria_instance, magnetic_link, c_file_name):
 
 def add_torrent(aria_instance, torrent_file_path):
     if torrent_file_path is None:
-        return False, "**FAILED** \n" + str(e) + " \nsomething happend wrong when trying to add <u>TORRENT</u> file. \n\n @AbirHasan2005 Please review this. \n"
+        return False, "**FAILED** \n" + str(e) + " \nsomething happend wrong when trying to add <u>TORRENT</u> file. \n\n @Islam_Dawood Please review this. \n"
     if os.path.exists(torrent_file_path):
         # Add Torrent Into Queue
         try:
@@ -172,7 +172,7 @@ async def call_apropriate_function(
                 None
             )
         else:
-            return False, "Ops, \nCan't get metadata \n@AbirHasan2005 Please review this! \n#stopped"
+            return False, "Ops, \nCan't get metadata \n@Islam_Dawood Please review this! \n#stopped"
     await asyncio.sleep(1)
     file = aria_instance.get_download(err_message)
     to_upload_file = file.name
@@ -240,7 +240,7 @@ async def call_apropriate_function(
             message_to_send += "</a>"
             message_to_send += "\n"
         if message_to_send != "":
-            mention_req_user = f"<a href='tg://user?id={user_id}'>Your Requested Files</a>\n\n@AbirHasan2005 Please Review them!\n"
+            mention_req_user = f"<a href='tg://user?id={user_id}'>Your Requested Files</a>\n\n@Islam_Dawood Please Review them!\n"
             message_to_send = mention_req_user + message_to_send
             message_to_send = message_to_send + "\n" + "#uploads"
         else:
@@ -296,7 +296,7 @@ async def call_apropriate_function_g(
                 None
             )
         else:
-            return False, "Ops, \nCan't get metadata \n@AbirHasan2005 Please review them! \n#stopped"
+            return False, "Ops, \nCan't get metadata \n@Islam_Dawood Please review them! \n#stopped"
     await asyncio.sleep(1)
     file = aria_instance.get_download(err_message)
     to_upload_file = file.name
