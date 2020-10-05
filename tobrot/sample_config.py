@@ -47,7 +47,7 @@ class Config(object):
     STATUS_COMMAND = os.environ.get("STATUS_COMMAND", "status")
     SAVE_THUMBNAIL = os.environ.get("SAVE_THUMBNAIL", "savethumbnail")
     CLEAR_THUMBNAIL = os.environ.get("CLEAR_THUMBNAIL", "clearthumbnail")
-    UPLOAD_AS_DOC = os.environ.get("UPLOAD_AS_DOC", "False")
+    UPLOAD_AS_DOC = os.environ.get("UPLOAD_AS_DOC", "true")
     PYTDL_COMMAND_G = os.environ.get("PYTDL_COMMAND_G", "pytdl")
     LOG_COMMAND = os.environ.get("LOG_COMMAND", "log")
     CLONE_COMMAND_G = os.environ.get("CLONE_COMMAND_G", "gclone")
