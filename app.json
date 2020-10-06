@@ -74,7 +74,7 @@
     "INDEX_LINK": {
       "description": "Enter your index link:",
       "required": false,
-      "value": "https://dawood.eslam.workers.dev/5:/"
+      "value": "https://dawood.eslam.workers.dev/5:/Bot/Bot"
     },
     "GLEECH_COMMAND": {
       "description": "Enter your custom gleech command like /gleech1@urgroupname and so on. Default is /gleech",
