@@ -145,7 +145,7 @@ class CloneHelper:
                 button.append([pyrogram.InlineKeyboardButton(text="ℹ️ Index URL ℹ️", url=f"{tam_link}")])
             button_markup = pyrogram.InlineKeyboardMarkup(button)
             msg = await self.lsg.edit_text(
-                f"🤖: {_up} Cloned successfully in @AbirHasan2005's Cloud <a href='tg://user?id={self.u_id}'>🤒</a>\
+                f"🤖: {_up} Cloned successfully in @Islam_Dawood's Cloud <a href='tg://user?id={self.u_id}'>🤒</a>\
                 \n📀 Info: Calculating ...",
                 reply_markup=button_markup,
                 parse_mode="html"
@@ -168,7 +168,7 @@ class CloneHelper:
             LOGGER.info(am.decode('utf-8'))
             await asyncio.sleep(EDIT_SLEEP_TIME_OUT)
             await msg.edit_text(
-                f"🤖: {_up} Cloned successfully in @AbirHasan2005's Cloud <a href='tg://user?id={self.u_id}'>🤒</a>\
+                f"🤖: {_up} Cloned successfully in @Islam_Dawood's Cloud <a href='tg://user?id={self.u_id}'>🤒</a>\
                 \n📀 Info:\n{g_autam}",
                 reply_markup=button_markup,
                 parse_mode="html"
